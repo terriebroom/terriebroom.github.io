@@ -1,44 +1,25 @@
 body {
-	background-color: #000
+	background-color: black; /* General background colour of the webpage */
 }
-
-#console {
-	font-family: courier, monospace;
-	color: #fff;
-	width:750px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:100px;
-	font-size:14px;
+h1{
+	color: rgb(223, 190, 7); /* Headings to be different from the body of the webpage to stand out */
+	background-color: dimgray;
+	text-align-last: center;
 }
-
-a {
-	color: #0bc;
-	text-decoration: none;
+h2{
+	color: rgb(223, 190, 7);
+	background-color:dimgray;
+	text-align-last: center;
 }
-
-#a {
-	color: #0f0;
+h3{
+	color: rgb(223, 190, 7);
+	background-color: dimgray;
+	text-align-last: center;
 }
-
-#c {
-	color: #0bc;
+p{
+	color: white; /* Body to be uniformed and easily read against the coloured background */
+	text-align-last: center;
 }
-
-#b {
-	color: #ff0096;
-}
-
-#k {
-    	animation: change 1s;
-}
-
-#op{
-    	color: #888888
-}
-
-@keyframes change {
-    	0%  { color:  #0f0; }
-    	50% { color:  #0f0; }
-    	99% { color: black; }
+figcaption{
+	color: white;
 }
